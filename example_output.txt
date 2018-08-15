@@ -1,0 +1,6 @@
+(composite
+	(composite
+		MOVE_UP
+		MOVE_DOWN)
+	(WHILE GREEN != GET_TILE_HERE
+		MOVE_DOWN))
