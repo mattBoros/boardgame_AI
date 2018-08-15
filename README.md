@@ -26,7 +26,7 @@ It tests each set of commands several times to find which one performs best. Whe
 the first hundred thousand possible commands it could run, it prints out the best code snippet it found,
 and displays an example game.
 
-Here is an example output of the program:
+The following is an example output of the program:
 
 ```
 (composite
@@ -42,3 +42,4 @@ Which results in the following gameplay:
 ![Step1](https://github.com/mattBoros/boardgame_AI/blob/master/step_1.png?raw=true)
 ![Step2](https://github.com/mattBoros/boardgame_AI/blob/master/step_2.png?raw=true)
 
+In one step, the board piece moves up and then back down, and then moves right as long as the current tile is not green. When it reaches a green tile, it stops.
